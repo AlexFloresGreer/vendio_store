@@ -15,7 +15,7 @@ myApp.config(function($routeProvider){
        templateUrl: "partials/list.html"
     })
   .when("/edit/:id", {
-       templateUrl: "partials/editproduct.html"
+       templateUrl: "partials/editProduct.html"
     })
    .when("/show/:id", {
        templateUrl: "partials/showProduct.html"
